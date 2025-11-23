@@ -23,7 +23,9 @@ const Banner = ({inProgressCount,resolvedCount}) => {
 
         
         </button>
-        <button className={bg-linear-to-r from-[#54CF68]  to-[#00827A] text-white rounded-xl flex  justify-between items-center font-bold mb-8 mt-8}>
+        <button
+  className="bg-gradient-to-r from-[#54CF68] to-[#00827A] text-white rounded-xl flex justify-between items-center font-bold mb-8 mt-8"
+>
             
             <div>
                 <img  src={bannerImg1} alt="" />
